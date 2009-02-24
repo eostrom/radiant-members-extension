@@ -1,0 +1,3 @@
+[submodule "vendor/plugins/file_column"]
+	path = vendor/plugins/file_column
+	url = git://github.com/woahdae/file_column.git
