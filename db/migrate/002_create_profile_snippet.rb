@@ -9,7 +9,7 @@ class CreateProfileSnippet < ActiveRecord::Migration
 
   def self.down
     snippet = Snippet.find_by_name 'profile_sidebar'
-    snippet.delete
+    snippet.destroy
   end
   
 end
